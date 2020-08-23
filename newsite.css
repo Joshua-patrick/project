@@ -1,0 +1,113 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.first-section{
+    height:100vh;
+    width:100%;
+    background-image: url(bannerAsset4.png) ; 
+    background-size:cover;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    display: inline-block;
+    transition: 0.5s;
+    position: relative;
+    right:-800px;
+    top: 20px;
+    list-style: none;
+    margin:0px 20px;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+}
+.list1:hover::after{
+    content: "";
+    widows: 100px;
+    height: 13px;
+    background: blue;
+}
+.list1:hover{
+    transform:scale(1.2);
+}
+.list2:hover{
+    transform:scale(1.3);
+}
+.list3:hover{
+    transform:scale(1.2);
+    transition: transform 0.5s;
+}
+.big{ 
+    font-size:45px;
+    text-transform: capitalize;
+    position: relative;
+    top: 25%;
+    margin-left: 35px;
+    font-family: 'Bangers', cursive;
+}
+.small{
+    font-size: 30px;
+    text-transform: capitalize;
+    position: relative;
+    top: 25%;
+    left: 38px;
+    width:40%;
+    font-family: 'Arima Madurai', cursive;
+} 
+#service{
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100% ;
+    /* background-image: url(kai-dahms-FB_xKJOLsfI-unsplash.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat; */
+}
+.webdes{ 
+    height:70%;
+    position: relative;
+    width:25%;
+    border-radius: 10%;
+    background: gainsboro;
+    border: 0.5px solid white;
+}
+/* .webdes{
+    height:70%;
+    width:25%;
+    background: gainsboro;
+}
+.webdes{
+    height:70%;
+    width:25%;
+    background: gainsboro;
+}  */
+h3{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-weight: lighter;
+    font-size: 33px;
+}
+p.content2{
+    font-size: 20px;
+    /* width:70%; */
+    text-transform: capitalize;
+    /* position: relative; */
+    text-align:justify;
+    position: absolute;
+    padding: 0 10px;
+    bottom: 7px;
+    /* top: 25%;
+    left: 38px; */
+    font-family: 'Arima Madurai', cursive;
+}
+.aboutus{
+    height: 100%;
+    background: #588b8c;
+}
